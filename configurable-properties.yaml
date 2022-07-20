@@ -1,0 +1,43 @@
+# Expression - Dataweave expression
+- propertyName: ExpressionProperty
+  name: Expression Property
+  description: Property Description
+  type: expression
+  optional: true
+  
+# Boolean - Checkbox
+- propertyName: BooleanProperty
+  name: Boolean Property
+  description: Property Description
+  type: boolean
+  optional: true
+  defaultValue: true
+  
+# Radio Button
+- propertyName: RadioButtons
+  name: Radio Buttons
+  description: Property Description
+  type: radio
+  options:				
+  - name: Option1
+    value: Option1 value
+  - name: Option2
+    value: Option2 value
+  optional: true
+  defaultValue: Option1 value
+  
+# Integer
+- propertyName: IntProperty
+  name: Int Property
+  description: Property Description
+  type: int
+  minimumValue: 10		
+  maximumValue: 20		
+  optional: true
+
+# Key Value Map
+- propertyName: keyValueProperty
+  name: Key Value Property
+  description: Property Description
+  type: keyvalues
+  optional: true
